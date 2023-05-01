@@ -4,7 +4,7 @@ export default function App() {
 
   return <div>
     <h1>Bienvenue sur ce site</h1>
-    <p>Ce site référence l'ensemble des exclus des différentes consoles</p>
+    <p>Ce site référence l &apos; ensemble des exclus des différentes consoles</p>
     <ul>
       <li>Les remaster ne sont pas comptabilisé</li>
       <li>Les jeux cross gen sont comptabilisé sur le support le plus ancien</li>

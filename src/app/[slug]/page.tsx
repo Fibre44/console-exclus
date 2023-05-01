@@ -63,7 +63,7 @@ export default function App() {
                 ],
             };
             return <>
-                <Link href={'/'} className='absolute'>Retour à l'accueil</Link>
+                <Link href={'/'} className='absolute'>Retour à l &apos; accueil</Link>
                 <Bar options={options} data={data} />;
 
             </>
