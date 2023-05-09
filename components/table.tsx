@@ -9,7 +9,7 @@ export function Table({ generation }: { generation: string }) {
             {/* head */}
             <thead>
                 <tr>
-                    <th></th>
+                    <th>Année</th>
                     <th>Console</th>
                     <th>Jeux</th>
                     <th>Note</th>
@@ -26,7 +26,7 @@ export function Table({ generation }: { generation: string }) {
 
 const Row = ({ game, console }: { game: Game, console: string }) => {
     return <tr>
-        <th>1</th>
+        <th>{game.year}</th>
         <td>{console}</td>
         <td>{game.title}</td>
         <td><Link href={game.urlMetaCritic}>{game.metaCritic}</Link></td>
