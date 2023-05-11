@@ -19,6 +19,8 @@ type DataSet = {
         years: string[]
         description?: string
         wikipedia?: string
+        commentGames: string,
+        commentMetaCritics: string
     },
     manufacturer: Manufacturer[]
 
@@ -29,7 +31,9 @@ export const dataSet: DataSet[] = [
     {
         generation: {
             number: '9',
-            years: ['2020', '2021', '2022', '2023']
+            years: ['2020', '2021', '2022', '2023'],
+            commentGames: 'Le nombre de sortie de jeux est très proche entre les deux constructeurs',
+            commentMetaCritics: 'Globalement les deux constructeurs proposent des jeux de qualités. Cependant Sony frappe plus fort.'
         },
         manufacturer: [
             {
@@ -78,6 +82,12 @@ export const dataSet: DataSet[] = [
                         metaCritic: '87',
                         year: '2022',
                         urlMetaCritic: 'https://www.metacritic.com/game/playstation-5/gran-turismo-7'
+                    },
+                    {
+                        title: 'GOD OF WAR: RAGNAROK',
+                        metaCritic: '94',
+                        year: '2022',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-5/god-of-war-ragnarok'
                     },
                     {
                         title: 'Horizon Forbidden West',

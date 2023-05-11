@@ -19,7 +19,7 @@ export default function RootLayout({
         <nav>
           <NavBar />
         </nav>
-        <div className='h-full w-full'>
+        <div>
           {children}
         </div>
       </body>

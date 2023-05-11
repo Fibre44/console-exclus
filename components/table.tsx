@@ -5,6 +5,7 @@ export function Table({ generation }: { generation: string }) {
     const gamesFilter = dataSet.filter(data => data.generation.number === generation)
 
     return <div className="overflow-x-auto">
+        <p>Liste des jeux de la base de données</p>
         <table className="table w-full">
             {/* head */}
             <thead>
@@ -17,7 +18,6 @@ export function Table({ generation }: { generation: string }) {
             </thead>
             <tbody>
                 {gamesFilter.map(data => data.manufacturer.map(manufacturer => manufacturer.games.map(game => <Row key={game.title} game={game} console={manufacturer.console} />)))}
-
             </tbody>
         </table>
     </div>
