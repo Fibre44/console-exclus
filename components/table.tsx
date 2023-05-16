@@ -1,8 +1,6 @@
-import { dataSet } from "../data/dataSet";
-import type { Game } from "../data/dataSet";
+import type { DataSet, Game } from "../data/dataSet";
 import Link from "next/link";
-export function Table({ generation }: { generation: string }) {
-    const gamesFilter = dataSet.filter(data => data.generation.number === generation)
+export function Table({ datas }: { datas: DataSet[] }) {
 
     return <div className="overflow-x-auto">
         <p>Liste des jeux de la base de données</p>
@@ -17,7 +15,7 @@ export function Table({ generation }: { generation: string }) {
                 </tr>
             </thead>
             <tbody>
-                {gamesFilter.map(data => data.manufacturer.map(manufacturer => manufacturer.games.map(game => <Row key={game.title} game={game} console={manufacturer.console} />)))}
+                {datas.map(data => data.manufacturer.map(manufacturer => manufacturer.games.map(game => <Row key={game.title} game={game} console={manufacturer.console} />)))}
             </tbody>
         </table>
     </div>

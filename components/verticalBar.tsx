@@ -1,6 +1,6 @@
 'use client'
 import { Bar } from 'react-chartjs-2';
-import { dataSet } from '../data/dataSet';
+import type { DataSet } from '../data/dataSet';
 import {
     Chart as ChartJS,
     CategoryScale,
@@ -26,21 +26,19 @@ ChartJS.register(
  * @returns 
  */
 
-export function VerticalBar({ generation }: { generation: string }) {
+export function VerticalBar({ datas }: { datas: DataSet[] }) {
 
-    const generationFilter = generation
 
-    const gamesFilter = dataSet.filter(data => data.generation.number === generationFilter)
-    const labels = [...gamesFilter[0].generation.years];
+    const labels = [...datas[0].generation.years];
 
     //On tourne par société 
     const dataSets = []
-    for (let manufacturer of gamesFilter[0].manufacturer) {
+    for (let manufacturer of datas[0].manufacturer) {
         const dataListNumberGamesYear = []
         let label = manufacturer.console
         let backgroundColor = manufacturer.backgroundColor
         //On tourne par année pour calculer le nombre de jeux
-        for (let year of gamesFilter[0].generation.years) {
+        for (let year of datas[0].generation.years) {
             let rated = 0
             let numberGamesList = manufacturer.games.filter(gamesYear => gamesYear.year === year)
             let numberGames = numberGamesList.length

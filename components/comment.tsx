@@ -1,10 +1,6 @@
-import { dataSet } from '../data/dataSet';
-
-export function Comment({ generation, type }: { generation: string, type: string }) {
-    const generationFilter = generation
-    //On filtre sur la génération
-    const gamesFilter = dataSet.filter(data => data.generation.number === generationFilter)
+import type { DataSet } from '../data/dataSet';
+export function Comment({ datas, type }: { datas: DataSet[], type: string }) {
     return <p className='lg:py-20'>
-        {type == 'games' ? gamesFilter[0].generation.commentGames : gamesFilter[0].generation.commentMetaCritics}
+        {type == 'games' ? datas[0].generation.commentGames : datas[0].generation.commentMetaCritics}
     </p>
 }

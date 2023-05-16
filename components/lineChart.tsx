@@ -1,6 +1,6 @@
 'use client'
 import { Line } from 'react-chartjs-2';
-import { dataSet } from '../data/dataSet';
+import type { DataSet } from '../data/dataSet';
 import {
     Chart as ChartJS,
     CategoryScale,
@@ -28,20 +28,18 @@ ChartJS.register(
  * @returns 
  */
 
-export function LineChart({ generation }: { generation: string }) {
-    const generationFilter = generation
+export function LineChart({ datas }: { datas: DataSet[] }) {
     //On filtre sur la génération
-    const gamesFilter = dataSet.filter(data => data.generation.number === generationFilter)
-    const labels = [...gamesFilter[0].generation.years];
+    const labels = [...datas[0].generation.years];
 
     //On tourne par société 
     const dataSets = []
-    for (let manufacturer of gamesFilter[0].manufacturer) {
+    for (let manufacturer of datas[0].manufacturer) {
         const dataListNumberGamesYear = []
         let label = manufacturer.console
         let backgroundColor = manufacturer.backgroundColor
         //On tourne par année pour calculer le nombre de jeux
-        for (let year of gamesFilter[0].generation.years) {
+        for (let year of datas[0].generation.years) {
             let numberGamesList = manufacturer.games.filter(gamesYear => gamesYear.year === year)
             let numberGames = numberGamesList.length
             dataListNumberGamesYear.push(numberGames)
