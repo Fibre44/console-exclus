@@ -5,7 +5,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Exclus consoles',
-  description: 'Ce site fourni la liste des exclus de chaque consoles',
+  description: 'Liste des exclus des différentes consoles Playstation, Xbox et consoles Nintendo',
 }
 
 export default function RootLayout({

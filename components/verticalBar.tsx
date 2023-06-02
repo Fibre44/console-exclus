@@ -57,7 +57,6 @@ export function VerticalBar({ datas }: { datas: DataSet[] }) {
         dataSets.push(dataVertical)
 
     }
-
     const data = {
         labels,
         datasets: [

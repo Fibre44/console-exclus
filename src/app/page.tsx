@@ -10,7 +10,7 @@ export default function App() {
           Ce site référence l&apos;ensemble des exclusivités des différentes consoles afin d&apos;entretenir la guerre des consoles.
         </p>
         <p className="py-6">Les générations de consoles sont determinés par rapport à l&apos;article <Link href={`https://fr.wikipedia.org/wiki/Histoire_des_consoles_de_jeux_vid%C3%A9o`}>Wikipedia</Link> </p>
-        <Link href={'/chart/9'}><button className="btn btn-primary">Génération actuelle</button></Link>
+        <Link href={'/chart/'}><button className="btn btn-primary">Consulter les données</button></Link>
       </div>
     </div>
   </div>

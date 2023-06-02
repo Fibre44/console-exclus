@@ -27,8 +27,1176 @@ export type DataSet = {
 }
 
 export const dataSet: DataSet[] = [
-
     {
+        generation: {
+            number: '7',
+            years: ['2005', '2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015', '2017', '2017'],
+            commentGames: '',
+            commentMetaCritics: '',
+
+        },
+        manufacturer: [
+            {
+                society: 'Microsoft',
+                console: 'Xbox 360',
+                backgroundColor: '#107C10',
+                games: [
+                    {
+                        title: `AMPED 3`,
+                        metaCritic: '72',
+                        year: '2005',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/amped-3'
+                    },
+                    {
+                        title: `CONDEMNED: CRIMINAL ORIGIN`,
+                        metaCritic: '81',
+                        year: '2005',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/condemned-criminal-origins'
+                    },
+                    {
+                        title: `RIDGE RACER 6`,
+                        metaCritic: '74',
+                        year: '2005',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/ridge-racer-6'
+                    },
+                    {
+                        title: `PERFECT DARK ZERO`,
+                        metaCritic: '81',
+                        year: '2005',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/perfect-dark-zero'
+                    },
+                    {
+                        title: `PROJECT GOTHAM RACING 3`,
+                        metaCritic: '88',
+                        year: '2005',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/project-gotham-racing-3'
+                    },
+                    {
+                        title: `KAMEO: ELEMENTS OF POWER`,
+                        metaCritic: '79',
+                        year: '2005',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/kameo-elements-of-power'
+                    },
+                    {
+                        title: `DEAD OR ALIVE 4`,
+                        metaCritic: '85',
+                        year: '2005',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/dead-or-alive-4'
+                    },
+                    {
+                        title: `BOMBERMAN ACT: ZERO`,
+                        metaCritic: '34',
+                        year: '2006',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/bomberman-act-zero'
+                    },
+                    {
+                        title: `DEAD OR ALIVE XTREME 2`,
+                        metaCritic: '53',
+                        year: '2006',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/dead-or-alive-xtreme-2'
+                    },
+                    {
+                        title: `SAINTS ROW`,
+                        metaCritic: '81',
+                        year: '2006',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/saints-row'
+                    },
+                    {
+                        title: `CHROMEHOUNDS`,
+                        metaCritic: '71',
+                        year: '2006',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/chromehounds'
+                    },
+                    {
+                        title: `GEARS OF WAR`,
+                        metaCritic: '94',
+                        year: '2006',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/gears-of-war'
+                    },
+                    {
+                        title: `DEAD RISING`,
+                        metaCritic: '85',
+                        year: '2006',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/dead-rising'
+                    },
+                    {
+                        title: `FULL AUTO`,
+                        metaCritic: '70',
+                        year: '2006',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/full-auto'
+                    },
+                    {
+                        title: `MOTOGP '06`,
+                        metaCritic: '80',
+                        year: '2006',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/motogp-06'
+                    },
+                    {
+                        title: `OVER G FIGHTERS`,
+                        metaCritic: '49',
+                        year: '2006',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/over-g-fighters'
+                    },
+                    {
+                        title: `RUMBLE ROSES XX`,
+                        metaCritic: '62',
+                        year: '2006',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/rumble-roses-xx'
+                    },
+                    {
+                        title: `IMPORT TUNER CHALLENGE`,
+                        metaCritic: '54',
+                        year: '2006',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/import-tuner-challenge'
+                    },
+                    {
+                        title: `NINETY-NINE NIGHTS`,
+                        metaCritic: '61',
+                        year: '2006',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/ninety-nine-nights'
+                    },
+                    {
+                        title: `THE OUTFIT`,
+                        metaCritic: '70',
+                        year: '2006',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/the-outfit'
+                    },
+                    {
+                        title: `VIVA PINATA`,
+                        metaCritic: '84',
+                        year: '2006',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/viva-pinata'
+                    },
+                    {
+                        title: `AMERICA'S ARMY: TRUE SOLDIERS`,
+                        metaCritic: '43',
+                        year: '2007',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/americas-army-true-soldiers'
+                    },
+                    {
+                        title: `TENCHU Z`,
+                        metaCritic: '56',
+                        year: '2007',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/tenchu-z'
+                    },
+                    {
+                        title: `TETRIS EVOLUTION`,
+                        metaCritic: '52',
+                        year: '2007',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/tetris-evolution'
+                    },
+                    {
+                        title: `NARUTO: RISE OF A NINJA`,
+                        metaCritic: '78',
+                        year: '2007',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/naruto-rise-of-a-ninja'
+                    },
+                    {
+                        title: `PROJECT GOTHAM RACING 4`,
+                        metaCritic: '85',
+                        year: '2007',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/project-gotham-racing-4'
+                    },
+                    {
+                        title: `PROJECT SYLPHEED: ARC OF DECEPTION`,
+                        metaCritic: '64',
+                        year: '2007',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/project-sylpheed-arc-of-deception'
+                    },
+                    {
+                        title: `CRACKDOWN`,
+                        metaCritic: '83',
+                        year: '2007',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/crackdown'
+                    },
+                    {
+                        title: `BULLET WITCH`,
+                        metaCritic: '55',
+                        year: '2007',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/bullet-witch'
+                    },
+                    {
+                        title: `WARTECH: SENKO NO RONDE`,
+                        metaCritic: '60',
+                        year: '2007',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/wartech-senko-no-ronde'
+                    },
+                    {
+                        title: `FUZION FRENZY 2`,
+                        metaCritic: '49',
+                        year: '2007',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/fuzion-frenzy-2'
+                    },
+                    {
+                        title: 'ACE COMBAT 6: FIRES OF LIBERATION',
+                        metaCritic: '80',
+                        year: '2007',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/ace-combat-6-fires-of-liberation'
+                    },
+                    {
+                        title: 'BEAUTIFUL KATAMARI',
+                        metaCritic: '73',
+                        year: '2007',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/beautiful-katamari'
+                    },
+                    {
+                        title: 'BLUE DRAGON',
+                        metaCritic: '79',
+                        year: '2007',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/blue-dragon'
+                    },
+                    {
+                        title: 'FORZA MOTORSPORT 2',
+                        metaCritic: '90',
+                        year: '2007',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/forza-motorsport-2'
+                    },
+                    {
+                        title: 'Halo 3',
+                        metaCritic: '94',
+                        year: '2007',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/halo-3'
+                    },
+                    {
+                        title: 'BANJO- KAZOOIE: NUTS & BOLTS',
+                        metaCritic: '79',
+                        year: '2008',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/banjo-kazooie-nuts-bolts'
+                    },
+                    {
+                        title: 'INFINITE UNDISCOVERY',
+                        metaCritic: '68',
+                        year: '2008',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/infinite-undiscovery'
+                    },
+                    {
+                        title: `YOU'RE IN THE MOVIE`,
+                        metaCritic: '55',
+                        year: '2008',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/youre-in-the-movies'
+                    },
+                    {
+                        title: `VIVA PINATA: TROUBLE IN PARADISE`,
+                        metaCritic: '82',
+                        year: '2008',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/viva-pinata-trouble-in-paradise'
+                    },
+                    {
+                        title: `NARUTO: THE BROKEN BOND`,
+                        metaCritic: '80',
+                        year: '2008',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/naruto-the-broken-bond'
+                    },
+                    {
+                        title: `Ninja Gaiden II`,
+                        metaCritic: '81',
+                        year: '2008',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/ninja-gaiden-ii'
+                    },
+                    {
+                        title: 'GUILTY GEAR 2: OVERTURE',
+                        metaCritic: '56',
+                        year: '2008',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/guilty-gear-2-overture'
+                    },
+                    {
+                        title: 'FABLE II',
+                        metaCritic: '89',
+                        year: '2008',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/fable-ii'
+                    },
+                    {
+                        title: 'TOO HUMAN',
+                        metaCritic: '65',
+                        year: '2008',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/too-human'
+                    },
+                    {
+                        title: 'SCENE IT? BOX OFFICE SMASH',
+                        metaCritic: '76',
+                        year: '2008',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/scene-it-box-office-smash'
+                    },
+                    {
+                        title: 'GEARS OF WAR 2',
+                        metaCritic: '93',
+                        year: '2008',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/gears-of-war-2'
+                    },
+                    {
+                        title: 'KINGDOM UNDER FIRE: CIRCLE OF DOOM',
+                        metaCritic: '55',
+                        year: '2008',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/kingdom-under-fire-circle-of-doom'
+                    },
+                    {
+                        title: 'LOST ODYSSEY',
+                        metaCritic: '78',
+                        year: '2008',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/lost-odyssey'
+                    },
+                    {
+                        title: 'LIPS',
+                        metaCritic: '71',
+                        year: '2008',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/lips'
+                    },
+                    {
+                        title: 'FORZA MOTORSPORT 3',
+                        metaCritic: '92',
+                        year: '2009',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/forza-motorsport-3'
+                    },
+                    {
+                        title: 'STOKED',
+                        metaCritic: '68',
+                        year: '2009',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/stoked'
+                    },
+                    {
+                        title: 'Halo 3:ODST',
+                        metaCritic: '83',
+                        year: '2009',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/halo-3-odst'
+                    },
+                    {
+                        title: 'RACE PRO',
+                        metaCritic: '72',
+                        year: '2009',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/race-pro'
+                    },
+                    {
+                        title: 'MAGNA CARTA 2',
+                        metaCritic: '69',
+                        year: '2009',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/magna-carta-2'
+                    },
+                    {
+                        title: 'Halo wars',
+                        metaCritic: '82',
+                        year: '2009',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/halo-wars'
+                    },
+                    {
+                        title: 'CRACKDOWN 2',
+                        metaCritic: '70',
+                        year: '2010',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/crackdown-2'
+                    },
+                    {
+                        title: 'KINECT ADVENTURES!',
+                        metaCritic: '61',
+                        year: '2010',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/kinect-adventures!'
+                    },
+                    {
+                        title: 'KINECTIMALS',
+                        metaCritic: '74',
+                        year: '2010',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/kinectimals'
+                    },
+                    {
+                        title: 'Fable 3',
+                        metaCritic: '80',
+                        year: '2010',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/fable-iii'
+                    },
+                    {
+                        title: 'N3II: NINETY - NINE NIGHTS',
+                        metaCritic: '45',
+                        year: '2010',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/n3ii-ninety-nine-nights'
+                    },
+                    {
+                        title: 'SONIC FREE RIDERS',
+                        metaCritic: '47',
+                        year: '2010',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/sonic-free-riders'
+                    },
+                    {
+                        title: 'HALO: REACH',
+                        metaCritic: '91',
+                        year: '2010',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/halo-reach'
+                    },
+                    {
+                        title: 'KINECT JOY RIDE',
+                        metaCritic: '52',
+                        year: '2010',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/kinect-joy-ride'
+                    },
+                    {
+                        title: 'KINECT SPORTS',
+                        metaCritic: '73',
+                        year: '2010',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/kinect-sports'
+                    },
+                    {
+                        title: 'DANCE CENTRAL',
+                        metaCritic: '82',
+                        year: '2010',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/dance-central'
+                    },
+                    {
+                        title: 'FORZA MOTORSPORT 4',
+                        metaCritic: '91',
+                        year: '2011',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/forza-motorsport-4'
+                    },
+                    {
+                        title: 'DANCE CENTRAL 2',
+                        metaCritic: '86',
+                        year: '2011',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/dance-central-2'
+                    },
+                    {
+                        title: 'HALO: COMBAT EVOLVED ANNIVERSARY',
+                        metaCritic: '82',
+                        year: '2011',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/halo-combat-evolved-anniversary'
+                    },
+                    {
+                        title: 'GEARS OF WAR 3',
+                        metaCritic: '91',
+                        year: '2011',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/gears-of-war-3'
+                    },
+                    {
+                        title: 'KINECT: DISNEYLAND ADVENTURES',
+                        metaCritic: '73',
+                        year: '2011',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/kinect-disneyland-adventures'
+                    },
+                    {
+                        title: 'DRAGON BALL Z FOR KINECT',
+                        metaCritic: '49',
+                        year: '2012',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/dragon-ball-z-for-kinect'
+                    },
+                    {
+                        title: 'DANCE CENTRAL 3',
+                        metaCritic: '86',
+                        year: '2012',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/dance-central-3'
+                    },
+                    {
+                        title: 'Halo 4',
+                        metaCritic: '87',
+                        year: '2012',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/halo-4'
+                    },
+                    {
+                        title: 'KINECT RUSH: A DISNEY- PIXAR ADVENTURE',
+                        metaCritic: '68',
+                        year: '2012',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/kinect-rush-a-disney-pixar-adventure'
+                    },
+                    {
+                        title: 'KINECT STAR WAR',
+                        metaCritic: '55',
+                        year: '2012',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/kinect-star-wars'
+                    },
+                    {
+                        title: 'FORZA HORIZON',
+                        metaCritic: '85',
+                        year: '2012',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/forza-horizon'
+                    },
+                    {
+                        title: 'FABLE: THE JOURNEY',
+                        metaCritic: '61',
+                        year: '2012',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/fable-the-journey'
+                    },
+                    {
+                        title: 'STEEL BATTALION: HEAVY ARMOR',
+                        metaCritic: '38',
+                        year: '2012',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/steel-battalion-heavy-armor'
+                    },
+                    {
+                        title: 'GEARS OF WAR: JUDGMENT',
+                        metaCritic: '79',
+                        year: '2013',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/gears-of-war-judgment'
+                    },
+                    {
+                        title: 'FABLE ANNIVERSARY',
+                        metaCritic: '68',
+                        year: '2014',
+                        urlMetaCritic: 'https://www.metacritic.com/game/xbox-360/fable-anniversary'
+                    },
+                ],
+            },
+            {
+                society: 'Sony',
+                console: 'Playstation 3',
+                backgroundColor: '#2E6DB4',
+                games: [
+                    {
+                        title: 'UNTOLD LEGENDS: DARK KINGDOM',
+                        metaCritic: '58',
+                        year: '2006',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/untold-legends-dark-kingdom'
+                    },
+                    {
+                        title: 'GENJI: DAYS OF THE BLAD',
+                        metaCritic: '55',
+                        year: '2006',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/genji-days-of-the-blade'
+                    },
+                    {
+                        title: 'RIDGE RACER 7',
+                        metaCritic: '78',
+                        year: '2006',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/ridge-racer-7'
+                    },
+                    {
+                        title: 'FORMULA ONE CHAMPIONSHIP EDITION',
+                        metaCritic: '74',
+                        year: '2007',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/formula-one-championship-edition'
+                    },
+                    {
+                        title: 'WARHAWK',
+                        metaCritic: '84',
+                        year: '2007',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/warhawk'
+                    },
+                    {
+                        title: 'MOTORSTORM',
+                        metaCritic: '84',
+                        year: '2007',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/motorstorm'
+                    },
+                    {
+                        title: 'THE EYE OF JUDGMENT',
+                        metaCritic: '75',
+                        year: '2007',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/the-eye-of-judgment'
+                    },
+                    {
+                        title: 'NINJA GAIDEN SIGMA',
+                        metaCritic: '88',
+                        year: '2007',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/ninja-gaiden-sigma'
+                    },
+                    {
+                        title: 'LAIR',
+                        metaCritic: '53',
+                        year: '2007',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/lair'
+                    },
+                    {
+                        title: 'HEAVENLY SWORD',
+                        metaCritic: '79',
+                        year: '2007',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/heavenly-sword'
+                    },
+                    {
+                        title: 'FOLKLORE',
+                        metaCritic: '75',
+                        year: '2007',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/folklore'
+                    },
+                    {
+                        title: `UNCHARTED: DRAKE'S FORTUNE`,
+                        metaCritic: '88',
+                        year: '2007',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/uncharted-drakes-fortune'
+                    },
+                    {
+                        title: 'METAL GEAR SOLID 4: GUNS OF THE PATRIOT',
+                        metaCritic: '94',
+                        year: '2008',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/metal-gear-solid-4-guns-of-the-patriots'
+                    },
+                    {
+                        title: 'RESISTANCE 2',
+                        metaCritic: '87',
+                        year: '2008',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/resistance-2'
+                    },
+                    {
+                        title: 'MOTORSTORM: PACIFIC RIF',
+                        metaCritic: '82',
+                        year: '2008',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/motorstorm-pacific-rift'
+                    },
+                    {
+                        title: 'BUZZ! QUIZ TV',
+                        metaCritic: '80',
+                        year: '2008',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/buzz!-quiz-tv'
+                    },
+                    {
+                        title: 'DISGAEA 3: ABSENCE OF JUSTICE',
+                        metaCritic: '78',
+                        year: '2008',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/disgaea-3-absence-of-justice'
+                    },
+                    {
+                        title: 'LITTLEBIGPLANET',
+                        metaCritic: '95',
+                        year: '2008',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/littlebigplanet'
+                    },
+                    {
+                        title: 'GRAN TURISMO 5 PROLOGUE',
+                        metaCritic: '80',
+                        year: '2008',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/gran-turismo-5-prologue'
+                    },
+                    {
+                        title: 'HAZE',
+                        metaCritic: '55',
+                        year: '2008',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/haze'
+                    },
+                    {
+                        title: 'AFRIKA',
+                        metaCritic: '63',
+                        year: '2009',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/afrika'
+                    },
+                    {
+                        title: 'NINJA GAIDEN SIGMA 2',
+                        metaCritic: '88',
+                        year: '2007',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/ninja-gaiden-sigma-2'
+                    },
+                    {
+                        title: 'RATCHET & CLANK FUTURE: QUEST FOR BOOTY',
+                        metaCritic: '76',
+                        year: '2007',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/ratchet-clank-future-quest-for-booty'
+                    },
+                    {
+                        title: 'TIME CRISIS 4',
+                        metaCritic: '60',
+                        year: '2007',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/time-crisis-4'
+                    },
+                    {
+                        title: 'SINGSTAR',
+                        metaCritic: '82',
+                        year: '2008',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/singstar-2008'
+                    },
+                    {
+                        title: 'EYEPET',
+                        metaCritic: '70',
+                        year: '2009',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/eyepet'
+                    },
+                    {
+                        title: 'INFAMOUS',
+                        metaCritic: '85',
+                        year: '2009',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/infamous'
+                    },
+                    {
+                        title: `DEMON'S SOULS`,
+                        metaCritic: '89',
+                        year: '2009',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/demons-souls'
+                    },
+                    {
+                        title: `KILLZONE 2`,
+                        metaCritic: '91',
+                        year: '2009',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/killzone-2'
+                    },
+                    {
+                        title: `RATCHET & CLANK FUTURE: A CRACK IN TIME`,
+                        metaCritic: '87',
+                        year: '2009',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/ratchet-clank-future-a-crack-in-time'
+                    },
+                    {
+                        title: `GOD OF WAR COLLECTION`,
+                        metaCritic: '91',
+                        year: '2009',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/god-of-war-collection'
+                    },
+                    {
+                        title: `UNCHARTED 2: AMONG THIEVES`,
+                        metaCritic: '96',
+                        year: '2009',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/uncharted-2-among-thieves'
+                    },
+                    {
+                        title: '3D DOT GAME HEROES',
+                        metaCritic: '77',
+                        year: '2010',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/3d-dot-game-heroes'
+                    },
+                    {
+                        title: 'TIME CRISIS: RAZING STORM',
+                        metaCritic: '58',
+                        year: '2010',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/time-crisis-razing-storm'
+                    },
+                    {
+                        title: 'GOD OF WAR III',
+                        metaCritic: '92',
+                        year: '2010',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/god-of-war-iii'
+                    },
+                    {
+                        title: 'LAST REBELLION',
+                        metaCritic: '44',
+                        year: '2010',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/last-rebellion'
+                    },
+                    {
+                        title: 'GRAN TURISMO 5',
+                        metaCritic: '84',
+                        year: '2010',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/gran-turismo-5'
+                    },
+                    {
+                        title: 'KUNG FU RIDER',
+                        metaCritic: '36',
+                        year: '2010',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/kung-fu-rider'
+                    },
+                    {
+                        title: 'SPORTS CHAMPIONS',
+                        metaCritic: '76',
+                        year: '2010',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/sports-champions'
+                    },
+                    {
+                        title: 'HEAVY RAIN',
+                        metaCritic: '87',
+                        year: '2010',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/heavy-rain'
+                    },
+                    {
+                        title: 'AR TONELICO QOGA: KNELL OF AR CIEL',
+                        metaCritic: '61',
+                        year: '2011',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/ar-tonelico-qoga-knell-of-ar-ciel'
+                    },
+                    {
+                        title: `UNCHARTED 3: DRAKE'S DECEPTION`,
+                        metaCritic: '92',
+                        year: '2011',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/uncharted-3-drakes-deception'
+                    },
+                    {
+                        title: 'RESISTANCE 3',
+                        metaCritic: '83',
+                        year: '2011',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/resistance-3'
+                    },
+                    {
+                        title: 'SOCOM 4: U.S.NAVY SEALS',
+                        metaCritic: '67',
+                        year: '2011',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/socom-4-us-navy-seals'
+                    },
+                    {
+                        title: 'MOTORSTORM: APOCALYPSE',
+                        metaCritic: '77',
+                        year: '2011',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/motorstorm-apocalypse'
+                    },
+                    {
+                        title: 'INFAMOUS 2',
+                        metaCritic: '83',
+                        year: '2011',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/infamous-2'
+                    },
+                    {
+                        title: 'DISGAEA 4: A PROMISE UNFORGOTTEN',
+                        metaCritic: '80',
+                        year: '2011',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/disgaea-4-a-promise-unforgotten'
+                    },
+                    {
+                        title: `KILLZONE 3`,
+                        metaCritic: '83',
+                        year: '2011',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/killzone-3'
+                    },
+                    {
+                        title: `RATCHET & CLANK: ALL 4 ONE`,
+                        metaCritic: '70',
+                        year: '2011',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/ratchet-clank-all-4-one'
+                    },
+                    {
+                        title: 'THE ICO & SHADOW OF THE COLOSSUS COLLECTION',
+                        metaCritic: '92',
+                        year: '2011',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/the-ico-shadow-of-the-colossus-collection'
+                    },
+                    {
+                        title: 'EYEPET & FRIENDS',
+                        metaCritic: '65',
+                        year: '2011',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/eyepet-friends'
+                    },
+                    {
+                        title: 'LITTLEBIGPLANET 2',
+                        metaCritic: '91',
+                        year: '2011',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/littlebigplanet-2'
+                    },
+                    {
+                        title: 'PLAYSTATION MOVE APE ESCAPE',
+                        metaCritic: '43',
+                        year: '2011',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/playstation-move-ape-escape'
+                    },
+                    {
+                        title: 'PLAYSTATION MOVE HEROES',
+                        metaCritic: '53',
+                        year: '2011',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/playstation-move-heroes'
+                    },
+                    {
+                        title: 'BLEACH: SOUL RESURRECCION',
+                        metaCritic: '58',
+                        year: '2011',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/bleach-soul-resurreccion'
+                    },
+                    {
+                        title: 'TEKKEN HYBRID',
+                        metaCritic: '65',
+                        year: '2011',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/tekken-hybrid'
+                    },
+                    {
+                        title: 'HYPERDIMENSION NEPTUNIA',
+                        metaCritic: '45',
+                        year: '2011',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/hyperdimension-neptunia'
+                    },
+                    {
+                        title: 'HYPERDIMENSION NEPTUNIA MK',
+                        metaCritic: '53',
+                        year: '2012',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/hyperdimension-neptunia-mk2'
+                    },
+                    {
+                        title: 'SPORTS CHAMPIONS 2',
+                        metaCritic: '60',
+                        year: '2012',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/sports-champions-2'
+                    },
+                    {
+                        title: 'STARHAWK',
+                        metaCritic: '77',
+                        year: '2012',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/starhawk'
+                    },
+                    {
+                        title: 'TALES OF GRACES ',
+                        metaCritic: '77',
+                        year: '2012',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/tales-of-graces-f'
+                    },
+                    {
+                        title: 'SORCERY',
+                        metaCritic: '70',
+                        year: '2012',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/sorcery'
+                    },
+                    {
+                        title: 'LEGASISTA',
+                        metaCritic: '68',
+                        year: '2012',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/legasista'
+                    },
+                    {
+                        title: 'MUGEN SOULS',
+                        metaCritic: '55',
+                        year: '2012',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/mugen-souls'
+                    },
+                    {
+                        title: 'JAK AND DAXTER COLLECTION',
+                        metaCritic: '81',
+                        year: '2012',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/jak-and-daxter-collection'
+                    },
+                    {
+                        title: 'SAINT SEIYA: SANCTUARY BATTLE',
+                        metaCritic: '62',
+                        year: '2012',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/saint-seiya-sanctuary-battle'
+                    },
+                    {
+                        title: 'OKAMI HD',
+                        metaCritic: '90',
+                        year: '2012',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/okami-hd'
+                    },
+                    {
+                        title: 'LITTLEBIGPLANET KARTING',
+                        metaCritic: '73',
+                        year: '2012',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/littlebigplanet-karting'
+                    },
+                    {
+                        title: 'TOKYO JUNGLE',
+                        metaCritic: '74',
+                        year: '2012',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/tokyo-jungle'
+                    },
+                    {
+                        title: 'TWISTED METAL',
+                        metaCritic: '76',
+                        year: '2012',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/twisted-metal'
+                    },
+                    {
+                        title: 'BEYOND: TWO SOULS',
+                        metaCritic: '70',
+                        year: '2013',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/beyond-two-souls'
+                    },
+                    {
+                        title: 'TALES OF XILLIA',
+                        metaCritic: '78',
+                        year: '2013',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/tales-of-xillia'
+                    },
+                    {
+                        title: 'TIME AND ETERNITY',
+                        metaCritic: '42',
+                        year: '2013',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/time-and-eternity'
+                    },
+                    {
+                        title: 'THE LAST OF US',
+                        metaCritic: '95',
+                        year: '2013',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/the-last-of-us'
+                    },
+                    {
+                        title: 'DISGAEA D2: A BRIGHTER DARKNESS',
+                        metaCritic: '74',
+                        year: '2013',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/disgaea-d2-a-brighter-darkness'
+                    },
+                    {
+                        title: 'DYNASTY WARRIORS 7: XTREME LEGENDS ',
+                        metaCritic: '64',
+                        year: '2013',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/dynasty-warriors-7-xtreme-legends'
+                    },
+                    {
+                        title: 'RATCHET & CLANK: INTO THE NEXUS ',
+                        metaCritic: '76',
+                        year: '2013',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/ratchet-clank-into-the-nexus'
+                    },
+                    {
+                        title: 'GOD OF WAR: ASCENSION',
+                        metaCritic: '80',
+                        year: '2013',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/god-of-war-ascension'
+                    },
+                    {
+                        title: 'HYPERDIMENSION NEPTUNIA VICTORY',
+                        metaCritic: '55',
+                        year: '2013',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/hyperdimension-neptunia-victory'
+                    },
+                    {
+                        title: 'TALES OF XILLIA 2',
+                        metaCritic: '84',
+                        year: '2014',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/tales-of-xillia-2'
+                    },
+                    {
+                        title: 'PERSONA 4 ARENA ULTIMAX ',
+                        metaCritic: '84',
+                        year: '2014',
+                        urlMetaCritic: 'https://www.metacritic.com/game/playstation-3/persona-4-arena-ultimax'
+                    },
+                ]
+            },
+            {
+                society: 'Nintendo',
+                console: 'Wii U',
+                backgroundColor: '#E70009',
+                games: [
+                    {
+                        title: 'NANO ASSAULT NEO',
+                        metaCritic: '71',
+                        year: '2012',
+                        urlMetaCritic: 'https://www.metacritic.com/game/wii-u/nano-assault-neo'
+                    },
+                    {
+                        title: 'TANK! TANK! TANK!',
+                        metaCritic: '45',
+                        year: '2012',
+                        urlMetaCritic: 'https://www.metacritic.com/game/wii-u/tank!-tank!-tank!'
+                    },
+                    {
+                        title: 'NEW SUPER MARIO BROS.U',
+                        metaCritic: '84',
+                        year: '2012',
+                        urlMetaCritic: 'https://www.metacritic.com/game/wii-u/new-super-mario-bros-u'
+                    },
+                    {
+                        title: 'YOUR SHAPE: FITNESS EVOLVED 2013',
+                        metaCritic: '76',
+                        year: '2012',
+                        urlMetaCritic: 'https://www.metacritic.com/game/wii-u/new-super-mario-bros-u'
+                    },
+                    {
+                        title: 'NINTENDO LAND',
+                        metaCritic: '77',
+                        year: '2012',
+                        urlMetaCritic: 'https://www.metacritic.com/game/wii-u/nintendo-land'
+                    },
+                    {
+                        title: 'WII SPORTS CLUB',
+                        metaCritic: '68',
+                        year: '2013',
+                        urlMetaCritic: 'https://www.metacritic.com/game/wii-u/wii-sports-club'
+                    },
+                    {
+                        title: 'LEGO CITY UNDERCOVER',
+                        metaCritic: '80',
+                        year: '2013',
+                        urlMetaCritic: 'https://www.metacritic.com/game/wii-u/lego-city-undercover'
+                    },
+                    {
+                        title: 'NEW SUPER LUIGI U',
+                        metaCritic: '77',
+                        year: '2013',
+                        urlMetaCritic: 'https://www.metacritic.com/game/wii-u/new-super-luigi-u'
+                    },
+                    {
+                        title: 'POKEMON RUMBLE U',
+                        metaCritic: '49',
+                        year: '2013',
+                        urlMetaCritic: 'https://www.metacritic.com/game/wii-u/pokemon-rumble-u'
+                    },
+                    {
+                        title: 'DR.LUIGI',
+                        metaCritic: '65',
+                        year: '2013',
+                        urlMetaCritic: 'https://www.metacritic.com/game/wii-u/dr-luigi'
+                    },
+                    {
+                        title: 'GAME & WARIO ',
+                        metaCritic: '61',
+                        year: '2013',
+                        urlMetaCritic: 'https://www.metacritic.com/game/wii-u/game-wario'
+                    },
+                    {
+                        title: 'WII PARTY U',
+                        metaCritic: '65',
+                        year: '2013',
+                        urlMetaCritic: 'https://www.metacritic.com/game/wii-u/wii-party-u'
+                    },
+                    {
+                        title: 'THE LEGEND OF ZELDA: THE WIND WAKER HD ',
+                        metaCritic: '90',
+                        year: '2013',
+                        urlMetaCritic: 'https://www.metacritic.com/game/wii-u/the-legend-of-zelda-the-wind-waker-hd'
+                    },
+                    {
+                        title: 'WII FIT U',
+                        metaCritic: '72',
+                        year: '2013',
+                        urlMetaCritic: 'https://www.metacritic.com/game/wii-u/wii-fit-u'
+                    },
+                    {
+                        title: 'PIKMIN 3',
+                        metaCritic: '87',
+                        year: '2013',
+                        urlMetaCritic: 'https://www.metacritic.com/game/wii-u/pikmin-3'
+                    },
+                    {
+                        title: 'SUPER MARIO 3D WORLD',
+                        metaCritic: '93',
+                        year: '2013',
+                        urlMetaCritic: 'https://www.metacritic.com/game/wii-u/super-mario-3d-world'
+                    },
+                    {
+                        title: 'BAYONETTA 2',
+                        metaCritic: '91',
+                        year: '2014',
+                        urlMetaCritic: 'https://www.metacritic.com/game/wii-u/bayonetta-2'
+                    },
+                    {
+                        title: 'DONKEY KONG COUNTRY: TROPICAL FREEZE',
+                        metaCritic: '83',
+                        year: '2014',
+                        urlMetaCritic: 'https://www.metacritic.com/game/wii-u/donkey-kong-country-tropical-freeze'
+                    },
+                    {
+                        title: 'MARIO KART 8',
+                        metaCritic: '88',
+                        year: '2014',
+                        urlMetaCritic: 'https://www.metacritic.com/game/wii-u/mario-kart-8'
+                    },
+                    {
+                        title: 'HYRULE WARRIORS',
+                        metaCritic: '76',
+                        year: '2014',
+                        urlMetaCritic: 'https://www.metacritic.com/game/wii-u/hyrule-warriors'
+                    },
+                    {
+                        title: 'CAPTAIN TOAD: TREASURE TRACKER',
+                        metaCritic: '81',
+                        year: '2014',
+                        urlMetaCritic: 'https://www.metacritic.com/game/wii-u/captain-toad-treasure-tracker'
+                    },
+                    {
+                        title: 'XENOBLADE CHRONICLES X',
+                        metaCritic: '84',
+                        year: '2015',
+                        urlMetaCritic: 'https://www.metacritic.com/game/wii-u/xenoblade-chronicles-x'
+                    },
+                    {
+                        title: `DEVIL'S THIRD`,
+                        metaCritic: '43',
+                        year: '2015',
+                        urlMetaCritic: 'https://www.metacritic.com/game/wii-u/devils-third'
+                    },
+                    {
+                        title: `YOSHI'S WOOLLY WORLD`,
+                        metaCritic: '78',
+                        year: '2015',
+                        urlMetaCritic: 'https://www.metacritic.com/game/wii-u/yoshis-woolly-world'
+                    },
+                    {
+                        title: `SUPER MARIO MAKER`,
+                        metaCritic: '88',
+                        year: '2015',
+                        urlMetaCritic: 'https://www.metacritic.com/game/wii-u/super-mario-maker'
+                    },
+                    {
+                        title: 'STAR FOX ZERO',
+                        metaCritic: '69',
+                        year: '2016',
+                        urlMetaCritic: 'https://www.metacritic.com/game/wii-u/star-fox-zero'
+                    },
+                    {
+                        title: 'THE LEGEND OF ZELDA: BREATH OF THE WILD ',
+                        metaCritic: '96',
+                        year: '2017',
+                        urlMetaCritic: 'https://www.metacritic.com/game/wii-u/the-legend-of-zelda-breath-of-the-wild'
+                    },
+                ]
+            }
+
+
+        ]
+    },
+    {
+
         generation: {
             number: '8',
             years: ['2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023'],
@@ -235,6 +1403,7 @@ export const dataSet: DataSet[] = [
                     },
                 ]
             },
+
             {
                 society: 'Microsoft',
                 console: 'Xbox one',
@@ -548,7 +1717,7 @@ export const dataSet: DataSet[] = [
                         urlMetaCritic: 'https://www.metacritic.com/game/switch/donkey-kong-country-tropical-freeze'
                     },
                     {
-                        title: 'SUPER SMASH BROS.ULTIMATE',
+                        title: 'SUPER SMASH BROS.ULTIMATE - Switch',
                         metaCritic: '93',
                         year: '2018',
                         urlMetaCritic: 'https://www.metacritic.com/game/switch/super-smash-bros-ultimate'
